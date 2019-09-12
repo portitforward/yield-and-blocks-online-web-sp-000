@@ -4,7 +4,8 @@ def hello_t(names)
     while i < names.length
       yield(names[i])
       i = i+1
-    end  
+    end
+    names
   else
     puts "Hey! No block was given!"
   end  
