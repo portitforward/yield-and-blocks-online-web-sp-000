@@ -1,6 +1,6 @@
 def hello_t(names)
   i = 0
-  while i < array
+  while i < names.length
     if block_given?
       yield(names[i])
       i = i+1
