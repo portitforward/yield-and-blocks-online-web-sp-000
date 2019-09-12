@@ -4,7 +4,7 @@ def hello_t(names)
     if block_given?
       yield(names[i])
       i = i+1
-    else:
+    else
       puts "Hey! No block was given!"
     end
   end  
